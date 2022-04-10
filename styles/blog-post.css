@@ -1,6 +1,4 @@
-@import "layout.css";
-@import "nav.css";
-@import "footer.css";
+
 
 /* additional text styling */
 
@@ -37,7 +35,7 @@ p a:hover {
 
 /* content */
 
-header{  
+header{
   grid-area: hd;
   width: 100%;
   height: auto;

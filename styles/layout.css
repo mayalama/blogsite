@@ -1,0 +1,25 @@
+.grid-container{
+  /* margin: 0 auto;
+  padding: 0 20px; */
+  display:grid;
+  grid-template-columns: 1fr 3fr;
+  /* grid-template-rows:100px auto 100px; */
+  grid-template-areas:
+  "hd hd"
+  "mn mn"
+  "sd sd"
+  "ft ft";
+   /* grid-gap: 1.5rem; */
+}
+
+
+
+
+@media(min-width:901px){
+  .grid-container{
+  grid-template-areas:
+  "hd hd"
+  "sd mn"
+  "ft ft";
+  }
+}
