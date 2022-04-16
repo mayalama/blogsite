@@ -1,6 +1,17 @@
+:root{
+  --color0:#383838;
+  --color1:#247881;
+  --color2:#43919B;
+  --color3:#30AADD;
+  --color4:#00FFC6;
+}
+
+body{
+  margin:0;
+  padding:0;
+}
+
 .grid-container{
-  /* margin: 0 auto;
-  padding: 0 20px; */
   display:grid;
   grid-template-columns: 1fr 3fr;
   /* grid-template-rows:100px auto 100px; */
@@ -11,9 +22,6 @@
   "ft ft";
    /* grid-gap: 1.5rem; */
 }
-
-
-
 
 @media(min-width:901px){
   .grid-container{
