@@ -11,3 +11,9 @@ footer {
   .fab {
     padding: 5px;
   }
+
+.copyrights{
+  color:darkcyan;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
